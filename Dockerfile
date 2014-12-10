@@ -15,6 +15,8 @@ RUN useradd kippo && echo "kippo:kippo" | chpasswd
 RUN chown -R kippo:kippo /opt/kippo
 RUN chown -R kippo:kippo /vol/kippo
 
+EXPOSE 2222 
+
 USER kippo
 
 
