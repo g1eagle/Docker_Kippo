@@ -1,2 +1,2 @@
 run:
-	docker build -t andrewmichaelsmith/kippo .
+	docker build -t andrewmichaelsmith/kippo:latest .
