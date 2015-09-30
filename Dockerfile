@@ -7,6 +7,10 @@ RUN apt-get install -y git python-twisted
 #RUN git clone https://github.com/desaster/kippo.git /opt/kippo
 RUN git clone https://github.com/micheloosterhof/kippo.git /opt/kippo
 
+##Install nano
+RUN apt-get install nano
+
+
 ADD conf/kippo.cfg /opt/kippo/kippo.cfg
 ADD bin/launch.sh /usr/bin/launch.sh
 
