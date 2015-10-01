@@ -8,6 +8,8 @@ RUN apt-get install -y git python-twisted
 RUN git clone https://github.com/micheloosterhof/kippo.git /opt/kippo
 
 ##Install nano
+ENV TERM xterm
+
 RUN apt-get install nano
 
 
