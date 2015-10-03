@@ -5,7 +5,7 @@ RUN useradd kippo -u 499 && echo "kippo:kippo" | chpasswd
 RUN apt-get update
 RUN apt-get install -y git python-twisted
 #RUN git clone https://github.com/desaster/kippo.git /opt/kippo
-RUN git clone https://github.com/micheloosterhof/kippo.git /opt/kippo
+RUN git clone https://github.com/micheloosterhof/kippo.git /opt/kippo 
 
 ##Install nano
 ENV TERM xterm
